@@ -1,0 +1,10 @@
+li3_metrics Usage
+------------------
+In your config/bootstrap/libraries.php file, add:
+
+Libraries::add('li3_metrics');
+
+You may need to do some additional configuration to discount specific URLs from being counted.
+You may also wish to setup the admin pages to fit into your application and protect them.
+You will likely need the FlashMessages library unless you remove the calls in the controller 
+as well as the Paginator library for the helper unless you use your own.
